@@ -1,10 +1,4 @@
-folderForJobs="Test1/Test2"
-job("${folderForJobs}/Test3") {
-    
-    parameters {
-    stringParam("Name", "Ajay")
-    
-    }
+job('demo1') {
     steps {
        println('Hello from a Job DSL script!')
     }
