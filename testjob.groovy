@@ -1,4 +1,5 @@
-job('demo1') {
+folderForJobs="Test1/Test2"
+job("${folderForJobs}/Test3") {
     
     parameters {
     stringParam("Name", "Ajay")
